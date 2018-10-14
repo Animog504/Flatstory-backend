@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  move_speed: 1
+  jump_power: 1
+  attack_power: 1
+
+two:
+  name: MyString
+  move_speed: 1
+  jump_power: 1
+  attack_power: 1
