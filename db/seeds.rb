@@ -11,8 +11,9 @@ User.destroy_all
 
 #---------------------
 
-User.create(first_name: "Scott", last_name: "Ungchusri", email:"animoogle504@sbcglobal.net", score: 1337)
+User.create(username: "animog504", password: "moogle", email:"animoogle504@sbcglobal.net", score: 1337, avatar: "https://vignette.wikia.nocookie.net/finalfantasy-crystalchronicles/images/0/0c/Ffcc_moogle.jpg")
 
 #------- Character(s)
 
 Character.create(name: "Joshua", move_speed: 7, jump_power: 10, attack_power: 4, user_id: 1)
+Character.create(name: "Humzah", move_speed: 6, jump_power: 6, attack_power: 8, user_id: 1)
